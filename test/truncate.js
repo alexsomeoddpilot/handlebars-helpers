@@ -28,3 +28,9 @@ test('email addresses', function (t) {
 
     t.equals(truncate('something@example.com', 18), 'something@example…', 'should remove trailing dots');
 });
+
+test('shorter strings', function (t) {
+    t.plan(1);
+
+    t.equals(truncate('This is short', 20, '…'), 'This is short', 'should not append or trim anything');
+});
