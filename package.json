@@ -17,14 +17,14 @@
     "test": "tap ./test/*.js"
   },
   "dependencies": {
-    "lodash": "~1.3.1",
+    "lodash": "^3.6.0",
+    "moment": "^2.10.2",
     "pack-it": "~1.0.0",
-    "require-all": "0.0.8",
-    "moment": "~2.3.1"
+    "require-all": "^1.0.0"
   },
   "devDependencies": {
-    "tap": "~0.3.1",
-    "codebux": "~0.1.2"
+    "codebux": "~0.1.2",
+    "tap": "^0.7.1"
   },
   "optionalDependencies": {},
   "engines": {
